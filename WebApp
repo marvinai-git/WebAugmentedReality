@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Marvin AI Web AR Test</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <script type="module" src="https://unpkg.com/@google/model-viewer@0.10.0/dist/model-viewer.js"></script>
+  </head>  
+  <body>
+    <h1>Marvin AI Web AR Test</h1>
+    
+    <p>
+      This is a basic demo to show how Web AR can work in reality in both iOS and Android
+    </p>
+
+    <model-viewer src="https://cdn.glitch.com/631845d9-3962-49bb-b113-1abed04fda14%2FAstronaut.glb?v=1618649070485"
+                  ios-src="https://cdn.glitch.com/631845d9-3962-49bb-b113-1abed04fda14%2FAstronaut.usdz?v=1618649070420"
+                  ar ar-scale="auto" 
+                  camera-controls 
+                  alt="A 3D model of an astronaut">
+    </model-viewer>
+    
+  </body>
+</html>
